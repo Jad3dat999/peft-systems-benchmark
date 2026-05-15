@@ -1,0 +1,1440 @@
+{
+  "total_cuda_time_us": 21657186.16,
+  "category_summary": [
+    {
+      "category": "Other",
+      "total_cuda_time_us": 9454120.3,
+      "percentage": 43.65
+    },
+    {
+      "category": "Optimizer",
+      "total_cuda_time_us": 6139505.7,
+      "percentage": 28.35
+    },
+    {
+      "category": "GEMM",
+      "total_cuda_time_us": 3618693.57,
+      "percentage": 16.71
+    },
+    {
+      "category": "Elementwise",
+      "total_cuda_time_us": 1089054.52,
+      "percentage": 5.03
+    },
+    {
+      "category": "Attention",
+      "total_cuda_time_us": 1057291.78,
+      "percentage": 4.88
+    },
+    {
+      "category": "Quantization",
+      "total_cuda_time_us": 222169.86,
+      "percentage": 1.03
+    },
+    {
+      "category": "Normalization",
+      "total_cuda_time_us": 76350.42,
+      "percentage": 0.35
+    }
+  ],
+  "kernels": [
+    {
+      "name": "ProfilerStep*",
+      "category": "Optimizer",
+      "cuda_time_us": 1836069.47,
+      "calls": 8
+    },
+    {
+      "name": "enumerate(DataLoader)#_MultiProcessingDataLoaderIter.__next__",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 8
+    },
+    {
+      "name": "aten::to",
+      "category": "Other",
+      "cuda_time_us": 515285.97,
+      "calls": 26384
+    },
+    {
+      "name": "aten::_to_copy",
+      "category": "Other",
+      "cuda_time_us": 515285.97,
+      "calls": 18680
+    },
+    {
+      "name": "aten::empty_strided",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 30432
+    },
+    {
+      "name": "aten::copy_",
+      "category": "Other",
+      "cuda_time_us": 637196.97,
+      "calls": 22832
+    },
+    {
+      "name": "cudaMemcpyAsync",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1600
+    },
+    {
+      "name": "cudaStreamSynchronize",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 40
+    },
+    {
+      "name": "ProfilerStep*",
+      "category": "Optimizer",
+      "cuda_time_us": 4238446.53,
+      "calls": 8
+    },
+    {
+      "name": "Memcpy HtoD (Pinned -> Device)",
+      "category": "Other",
+      "cuda_time_us": 43.13,
+      "calls": 24
+    },
+    {
+      "name": "Optimizer.zero_grad#AdamW.zero_grad",
+      "category": "Optimizer",
+      "cuda_time_us": 0,
+      "calls": 8
+    },
+    {
+      "name": "aten::embedding",
+      "category": "Elementwise",
+      "cuda_time_us": 204.19,
+      "calls": 8
+    },
+    {
+      "name": "aten::reshape",
+      "category": "Other",
+      "cuda_time_us": 22971.63,
+      "calls": 13576
+    },
+    {
+      "name": "aten::view",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 15912
+    },
+    {
+      "name": "aten::index_select",
+      "category": "Other",
+      "cuda_time_us": 204.19,
+      "calls": 8
+    },
+    {
+      "name": "aten::empty",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 13136
+    },
+    {
+      "name": "aten::resize_",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 568
+    },
+    {
+      "name": "cudaLaunchKernel",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 71792
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::indexSelectLargeIndex<float, long, unsigned int, 2, 2, -2, true>(at::cuda::detail::TensorInfo<float, unsigned int>, at::cuda::detail::TensorInfo<float const, unsigned int>, at::cuda::detail::TensorInfo<long const, unsigned int>, int, int, unsigned int, unsigned int, long)",
+      "category": "Other",
+      "cuda_time_us": 204.19,
+      "calls": 8
+    },
+    {
+      "name": "aten::arange",
+      "category": "Other",
+      "cuda_time_us": 74.24,
+      "calls": 80
+    },
+    {
+      "name": "void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, function_traits<at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>::result_type*)",
+      "category": "Other",
+      "cuda_time_us": 37.12,
+      "calls": 40
+    },
+    {
+      "name": "aten::add",
+      "category": "Other",
+      "cuda_time_us": 294527.92,
+      "calls": 3096
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char*, 2> >(int, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 26.88,
+      "calls": 24
+    },
+    {
+      "name": "aten::unsqueeze",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 640
+    },
+    {
+      "name": "aten::as_strided",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 37360
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#11}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#11}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "category": "Other",
+      "cuda_time_us": 18.88,
+      "calls": 8
+    },
+    {
+      "name": "cudaStreamIsCapturing",
+      "category": "Other",
+      "cuda_time_us": 246.75,
+      "calls": 4368
+    },
+    {
+      "name": "aten::all",
+      "category": "Other",
+      "cuda_time_us": 19.97,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::and_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4> >(at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::and_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4>)",
+      "category": "Other",
+      "cuda_time_us": 19.97,
+      "calls": 8
+    },
+    {
+      "name": "aten::is_nonzero",
+      "category": "Other",
+      "cuda_time_us": 10.24,
+      "calls": 8
+    },
+    {
+      "name": "aten::item",
+      "category": "Other",
+      "cuda_time_us": 19.78,
+      "calls": 6160
+    },
+    {
+      "name": "aten::_local_scalar_dense",
+      "category": "Other",
+      "cuda_time_us": 19.78,
+      "calls": 6160
+    },
+    {
+      "name": "Memcpy DtoH (Device -> Pinned)",
+      "category": "Other",
+      "cuda_time_us": 19.78,
+      "calls": 16
+    },
+    {
+      "name": "aten::slice",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 6776
+    },
+    {
+      "name": "aten::new_ones",
+      "category": "Other",
+      "cuda_time_us": 7.26,
+      "calls": 8
+    },
+    {
+      "name": "aten::new_empty",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 8
+    },
+    {
+      "name": "aten::fill_",
+      "category": "Other",
+      "cuda_time_us": 27515.45,
+      "calls": 3384
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<bool>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<bool>, at::detail::Array<char*, 1>)",
+      "category": "Other",
+      "cuda_time_us": 7.26,
+      "calls": 8
+    },
+    {
+      "name": "aten::le",
+      "category": "Other",
+      "cuda_time_us": 20.16,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::CompareFunctor<long> >(at::TensorIteratorBase&, at::native::(anonymous namespace)::CompareFunctor<long> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::CompareFunctor<long> >(at::TensorIteratorBase&, at::native::(anonymous namespace)::CompareFunctor<long> const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 20.16,
+      "calls": 8
+    },
+    {
+      "name": "aten::__and__",
+      "category": "Other",
+      "cuda_time_us": 50.59,
+      "calls": 16
+    },
+    {
+      "name": "aten::bitwise_and",
+      "category": "Other",
+      "cuda_time_us": 50.59,
+      "calls": 16
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 50.59,
+      "calls": 16
+    },
+    {
+      "name": "aten::index",
+      "category": "Other",
+      "cuda_time_us": 58.82,
+      "calls": 8
+    },
+    {
+      "name": "aten::expand",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 304
+    },
+    {
+      "name": "aten::_reshape_alias",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 16
+    },
+    {
+      "name": "aten::contiguous",
+      "category": "Other",
+      "cuda_time_us": 36.61,
+      "calls": 24
+    },
+    {
+      "name": "aten::clone",
+      "category": "Other",
+      "cuda_time_us": 101282.48,
+      "calls": 2072
+    },
+    {
+      "name": "aten::empty_like",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 9696
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 54.79,
+      "calls": 32
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 34.98,
+      "calls": 8
+    },
+    {
+      "name": "aten::dropout",
+      "category": "Elementwise",
+      "cuda_time_us": 119663.73,
+      "calls": 2056
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "category": "Other",
+      "cuda_time_us": 172893.28,
+      "calls": 7640
+    },
+    {
+      "name": "aten::matmul",
+      "category": "GEMM",
+      "cuda_time_us": 402240.13,
+      "calls": 4584
+    },
+    {
+      "name": "aten::bmm",
+      "category": "Other",
+      "cuda_time_us": 10.94,
+      "calls": 8
+    },
+    {
+      "name": "void gemmk1_kernel<int, float, 256, 5, false, false, false, false, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float>, float, 0>(cublasGemmk1Params<float, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float>, float, biasType<cublasGemvTensorStridedBatched<float>::value_type, float>::type>)",
+      "category": "GEMM",
+      "cuda_time_us": 10.94,
+      "calls": 8
+    },
+    {
+      "name": "aten::_unsafe_view",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 5096
+    },
+    {
+      "name": "aten::transpose",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 29624
+    },
+    {
+      "name": "aten::cat",
+      "category": "Other",
+      "cuda_time_us": 55023.65,
+      "calls": 1544
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 3, 64, 64>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 64, 64>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "category": "Other",
+      "cuda_time_us": 21.63,
+      "calls": 8
+    },
+    {
+      "name": "aten::cos",
+      "category": "Other",
+      "cuda_time_us": 11.14,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::cos_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::cos_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 11.14,
+      "calls": 8
+    },
+    {
+      "name": "aten::mul",
+      "category": "Other",
+      "cuda_time_us": 920865.53,
+      "calls": 7952
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::AUnaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 445703.83,
+      "calls": 1808
+    },
+    {
+      "name": "aten::sin",
+      "category": "Other",
+      "cuda_time_us": 11.1,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::sin_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::sin_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 11.1,
+      "calls": 8
+    },
+    {
+      "name": "aten::layer_norm",
+      "category": "Normalization",
+      "cuda_time_us": 6260.54,
+      "calls": 264
+    },
+    {
+      "name": "aten::native_layer_norm",
+      "category": "Normalization",
+      "cuda_time_us": 6260.54,
+      "calls": 264
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::vectorized_layer_norm_kernel<float, float>(int, float, float const*, float const*, float const*, float*, float*, float*)",
+      "category": "Normalization",
+      "cuda_time_us": 6260.54,
+      "calls": 264
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "category": "Other",
+      "cuda_time_us": 342330.68,
+      "calls": 10496
+    },
+    {
+      "name": "aten::t",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 24496
+    },
+    {
+      "name": "MatMul4Bit",
+      "category": "GEMM",
+      "cuda_time_us": 429105.0,
+      "calls": 1536
+    },
+    {
+      "name": "bitsandbytes::dequantize_blockwise",
+      "category": "Quantization",
+      "cuda_time_us": 9549.92,
+      "calls": 3040
+    },
+    {
+      "name": "void kDequantizeBlockwise<float, 512, 64, 8, 0>(float*, unsigned char*, float*, float*, int, int)",
+      "category": "Quantization",
+      "cuda_time_us": 9549.92,
+      "calls": 3040
+    },
+    {
+      "name": "cudaPeekAtLastError",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 6080
+    },
+    {
+      "name": "aten::add_",
+      "category": "Elementwise",
+      "cuda_time_us": 374118.67,
+      "calls": 10656
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 13573.49,
+      "calls": 4064
+    },
+    {
+      "name": "bitsandbytes::dequantize_4bit",
+      "category": "Quantization",
+      "cuda_time_us": 101535.01,
+      "calls": 3040
+    },
+    {
+      "name": "void kDequantizeBlockwise<__nv_bfloat16, 512, 64, 8, 2>(float*, unsigned char*, float*, __nv_bfloat16*, int, int)",
+      "category": "Quantization",
+      "cuda_time_us": 101535.01,
+      "calls": 3040
+    },
+    {
+      "name": "aten::linear",
+      "category": "GEMM",
+      "cuda_time_us": 591188.27,
+      "calls": 7696
+    },
+    {
+      "name": "aten::addmm",
+      "category": "GEMM",
+      "cuda_time_us": 394404.86,
+      "calls": 1544
+    },
+    {
+      "name": "cudaMemsetAsync",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 2792
+    },
+    {
+      "name": "cudaOccupancyMaxActiveBlocksPerMultiprocessor",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3816
+    },
+    {
+      "name": "Memset (Device)",
+      "category": "Other",
+      "cuda_time_us": 2638.46,
+      "calls": 2792
+    },
+    {
+      "name": "ampere_bf16_s1688gemm_bf16_128x128_ldg8_relu_f2f_stages_32x1_tn",
+      "category": "GEMM",
+      "cuda_time_us": 267736.39,
+      "calls": 1280
+    },
+    {
+      "name": "cudaPointerGetAttributes",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 24
+    },
+    {
+      "name": "Memcpy DtoD (Device -> Device)",
+      "category": "Other",
+      "cuda_time_us": 78505.35,
+      "calls": 1560
+    },
+    {
+      "name": "aten::native_dropout",
+      "category": "Elementwise",
+      "cuda_time_us": 119663.73,
+      "calls": 2048
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::fused_dropout_kernel_vec<float, float, unsigned int, 1, 4, bool>(at::cuda::detail::TensorInfo<float const, unsigned int>, at::cuda::detail::TensorInfo<float, unsigned int>, at::cuda::detail::TensorInfo<bool, unsigned int>, unsigned int, float, at::PhiloxCudaState)",
+      "category": "Elementwise",
+      "cuda_time_us": 114723.45,
+      "calls": 1536
+    },
+    {
+      "name": "aten::mm",
+      "category": "Other",
+      "cuda_time_us": 540923.68,
+      "calls": 10696
+    },
+    {
+      "name": "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 7912
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_tn_align8>(cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_tn_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 26207.52,
+      "calls": 1536
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_64x1_tn_align8>(cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_64x1_tn_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 17063.23,
+      "calls": 1280
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 56924.91,
+      "calls": 3072
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1> >(int, at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1>)",
+      "category": "Other",
+      "cuda_time_us": 113519.58,
+      "calls": 1536
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 23036.19,
+      "calls": 2048
+    },
+    {
+      "name": "aten::neg",
+      "category": "Other",
+      "cuda_time_us": 4934.58,
+      "calls": 1024
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 4934.58,
+      "calls": 1024
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 4, 64, 64>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 64, 64>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "category": "Other",
+      "cuda_time_us": 55002.02,
+      "calls": 1536
+    },
+    {
+      "name": "aten::lift_fresh",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 520
+    },
+    {
+      "name": "aten::detach_",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 520
+    },
+    {
+      "name": "detach_",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 520
+    },
+    {
+      "name": "aten::scaled_dot_product_attention",
+      "category": "Attention",
+      "cuda_time_us": 117648.28,
+      "calls": 512
+    },
+    {
+      "name": "aten::scalar_tensor",
+      "category": "Other",
+      "cuda_time_us": 518.42,
+      "calls": 512
+    },
+    {
+      "name": "aten::logical_not",
+      "category": "Other",
+      "cuda_time_us": 2266.76,
+      "calls": 512
+    },
+    {
+      "name": "aten::where",
+      "category": "Other",
+      "cuda_time_us": 2516.58,
+      "calls": 512
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<c10::BFloat16>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<c10::BFloat16>, at::detail::Array<char*, 1>)",
+      "category": "Other",
+      "cuda_time_us": 518.42,
+      "calls": 512
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::logical_not_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#10}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2> >(int, at::native::logical_not_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#10}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 1137.7,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1} const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 1142.31,
+      "calls": 256
+    },
+    {
+      "name": "aten::_scaled_dot_product_efficient_attention",
+      "category": "Attention",
+      "cuda_time_us": 46436.19,
+      "calls": 256
+    },
+    {
+      "name": "aten::_efficient_attention_forward",
+      "category": "Attention",
+      "cuda_time_us": 46436.19,
+      "calls": 256
+    },
+    {
+      "name": "cudaFuncSetAttribute",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1032
+    },
+    {
+      "name": "fmha_cutlassF_bf16_aligned_64x128_rf_sm80(PyTorchMemEffAttention::AttentionKernel<cutlass::bfloat16_t, cutlass::arch::Sm80, true, 64, 128, 128, true, true>::Params)",
+      "category": "Attention",
+      "cuda_time_us": 46436.19,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::fused_dropout_kernel_vec<c10::BFloat16, float, unsigned int, 1, 4, bool>(at::cuda::detail::TensorInfo<c10::BFloat16 const, unsigned int>, at::cuda::detail::TensorInfo<c10::BFloat16, unsigned int>, at::cuda::detail::TensorInfo<bool, unsigned int>, unsigned int, float, at::PhiloxCudaState)",
+      "category": "Elementwise",
+      "cuda_time_us": 4955.28,
+      "calls": 512
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<c10::BFloat16>, at::detail::Array<char*, 3> >(int, at::native::CUDAFunctor_add<c10::BFloat16>, at::detail::Array<char*, 3>)",
+      "category": "Other",
+      "cuda_time_us": 3610.83,
+      "calls": 512
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_tensorop_bf16_s16816gemm_bf16_256x128_32x3_tn_align8>(cutlass_80_tensorop_bf16_s16816gemm_bf16_256x128_32x3_tn_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 125592.92,
+      "calls": 264
+    },
+    {
+      "name": "aten::pow",
+      "category": "Other",
+      "cuda_time_us": 130812.26,
+      "calls": 512
+    },
+    {
+      "name": "aten::result_type",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 18944
+    },
+    {
+      "name": "aten::tanh",
+      "category": "Other",
+      "cuda_time_us": 65022.2,
+      "calls": 256
+    },
+    {
+      "name": "ampere_bf16_s1688gemm_bf16_128x128_ldg8_f2f_stages_32x1_tn",
+      "category": "GEMM",
+      "cuda_time_us": 8268.06,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#2}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#2}, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 65382.63,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3> >(int, at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3>)",
+      "category": "Other",
+      "cuda_time_us": 473416.69,
+      "calls": 4288
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::tanh_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::tanh_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 65022.2,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctorOnSelf_add<float>, at::detail::Array<char*, 2> >(int, at::native::CUDAFunctorOnSelf_add<float>, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 64499.12,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 3> >(int, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 3>)",
+      "category": "Other",
+      "cuda_time_us": 395200.6,
+      "calls": 1024
+    },
+    {
+      "name": "aten::pad",
+      "category": "Other",
+      "cuda_time_us": 29.95,
+      "calls": 8
+    },
+    {
+      "name": "aten::constant_pad_nd",
+      "category": "Other",
+      "cuda_time_us": 29.95,
+      "calls": 8
+    },
+    {
+      "name": "aten::narrow",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 2568
+    },
+    {
+      "name": "aten::cross_entropy_loss",
+      "category": "Other",
+      "cuda_time_us": 10949.21,
+      "calls": 8
+    },
+    {
+      "name": "aten::log_softmax",
+      "category": "Attention",
+      "cuda_time_us": 10603.39,
+      "calls": 8
+    },
+    {
+      "name": "aten::_log_softmax",
+      "category": "Attention",
+      "cuda_time_us": 10603.39,
+      "calls": 8
+    },
+    {
+      "name": "aten::nll_loss_nd",
+      "category": "Other",
+      "cuda_time_us": 345.82,
+      "calls": 8
+    },
+    {
+      "name": "aten::nll_loss",
+      "category": "Other",
+      "cuda_time_us": 345.82,
+      "calls": 8
+    },
+    {
+      "name": "aten::nll_loss_forward",
+      "category": "Other",
+      "cuda_time_us": 345.82,
+      "calls": 8
+    },
+    {
+      "name": "aten::ones_like",
+      "category": "Other",
+      "cuda_time_us": 9.54,
+      "calls": 8
+    },
+    {
+      "name": "autograd::engine::evaluate_function: NllLossBackward0",
+      "category": "Other",
+      "cuda_time_us": 4657.03,
+      "calls": 8
+    },
+    {
+      "name": "NllLossBackward0",
+      "category": "Other",
+      "cuda_time_us": 4657.03,
+      "calls": 8
+    },
+    {
+      "name": "aten::nll_loss_backward",
+      "category": "Other",
+      "cuda_time_us": 4657.03,
+      "calls": 8
+    },
+    {
+      "name": "aten::zero_",
+      "category": "Other",
+      "cuda_time_us": 26968.45,
+      "calls": 2848
+    },
+    {
+      "name": "autograd::engine::evaluate_function: LogSoftmaxBackward0",
+      "category": "Attention",
+      "cuda_time_us": 19267.49,
+      "calls": 8
+    },
+    {
+      "name": "LogSoftmaxBackward0",
+      "category": "Attention",
+      "cuda_time_us": 19267.49,
+      "calls": 8
+    },
+    {
+      "name": "aten::_log_softmax_backward_data",
+      "category": "Attention",
+      "cuda_time_us": 19267.49,
+      "calls": 8
+    },
+    {
+      "name": "autograd::engine::evaluate_function: ViewBackward0",
+      "category": "Other",
+      "cuda_time_us": 22971.63,
+      "calls": 4088
+    },
+    {
+      "name": "ViewBackward0",
+      "category": "Other",
+      "cuda_time_us": 22971.63,
+      "calls": 4088
+    },
+    {
+      "name": "autograd::engine::evaluate_function: ToCopyBackward0",
+      "category": "Other",
+      "cuda_time_us": 337844.18,
+      "calls": 7600
+    },
+    {
+      "name": "ToCopyBackward0",
+      "category": "Other",
+      "cuda_time_us": 220517.19,
+      "calls": 7600
+    },
+    {
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "category": "GEMM",
+      "cuda_time_us": 16973.39,
+      "calls": 8
+    },
+    {
+      "name": "AddmmBackward0",
+      "category": "GEMM",
+      "cuda_time_us": 16973.39,
+      "calls": 8
+    },
+    {
+      "name": "autograd::engine::evaluate_function: SliceBackward0",
+      "category": "Other",
+      "cuda_time_us": 42802.1,
+      "calls": 2072
+    },
+    {
+      "name": "SliceBackward0",
+      "category": "Other",
+      "cuda_time_us": 34001.28,
+      "calls": 2072
+    },
+    {
+      "name": "aten::slice_backward",
+      "category": "Other",
+      "cuda_time_us": 34001.28,
+      "calls": 2072
+    },
+    {
+      "name": "aten::zeros",
+      "category": "Other",
+      "cuda_time_us": 13390.94,
+      "calls": 2584
+    },
+    {
+      "name": "autograd::engine::evaluate_function: NativeLayerNormBackward0",
+      "category": "Normalization",
+      "cuda_time_us": 21940.99,
+      "calls": 256
+    },
+    {
+      "name": "NativeLayerNormBackward0",
+      "category": "Normalization",
+      "cuda_time_us": 11875.94,
+      "calls": 256
+    },
+    {
+      "name": "aten::native_layer_norm_backward",
+      "category": "Normalization",
+      "cuda_time_us": 11875.94,
+      "calls": 256
+    },
+    {
+      "name": "autograd::engine::evaluate_function: AddBackward0",
+      "category": "Other",
+      "cuda_time_us": 67182.26,
+      "calls": 3072
+    },
+    {
+      "name": "AddBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "autograd::engine::evaluate_function: NativeDropoutBackward0",
+      "category": "Elementwise",
+      "cuda_time_us": 142370.0,
+      "calls": 2016
+    },
+    {
+      "name": "NativeDropoutBackward0",
+      "category": "Elementwise",
+      "cuda_time_us": 106677.74,
+      "calls": 2016
+    },
+    {
+      "name": "aten::native_dropout_backward",
+      "category": "Elementwise",
+      "cuda_time_us": 106677.74,
+      "calls": 2016
+    },
+    {
+      "name": "autograd::engine::evaluate_function: MulBackward0",
+      "category": "Other",
+      "cuda_time_us": 514966.87,
+      "calls": 3584
+    },
+    {
+      "name": "MulBackward0",
+      "category": "Other",
+      "cuda_time_us": 415379.65,
+      "calls": 3584
+    },
+    {
+      "name": "autograd::engine::evaluate_function: UnsafeViewBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "UnsafeViewBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "autograd::engine::evaluate_function: MmBackward0",
+      "category": "Other",
+      "cuda_time_us": 121721.11,
+      "calls": 3072
+    },
+    {
+      "name": "MmBackward0",
+      "category": "Other",
+      "cuda_time_us": 121721.11,
+      "calls": 3072
+    },
+    {
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "TBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "autograd::engine::evaluate_function: torch::autograd::AccumulateGrad",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "torch::autograd::AccumulateGrad",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "aten::detach",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "detach",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 3072
+    },
+    {
+      "name": "autograd::engine::evaluate_function: CloneBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1504
+    },
+    {
+      "name": "CloneBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1504
+    },
+    {
+      "name": "autograd::engine::evaluate_function: MatMul4BitBackward",
+      "category": "GEMM",
+      "cuda_time_us": 418373.75,
+      "calls": 1504
+    },
+    {
+      "name": "MatMul4BitBackward",
+      "category": "GEMM",
+      "cuda_time_us": 416598.88,
+      "calls": 1504
+    },
+    {
+      "name": "autograd::engine::evaluate_function: TanhBackward0",
+      "category": "Other",
+      "cuda_time_us": 98006.84,
+      "calls": 256
+    },
+    {
+      "name": "TanhBackward0",
+      "category": "Other",
+      "cuda_time_us": 98006.84,
+      "calls": 256
+    },
+    {
+      "name": "aten::tanh_backward",
+      "category": "Other",
+      "cuda_time_us": 98006.84,
+      "calls": 256
+    },
+    {
+      "name": "autograd::engine::evaluate_function: PowBackward0",
+      "category": "Other",
+      "cuda_time_us": 323203.68,
+      "calls": 256
+    },
+    {
+      "name": "PowBackward0",
+      "category": "Other",
+      "cuda_time_us": 229077.65,
+      "calls": 256
+    },
+    {
+      "name": "autograd::engine::evaluate_function: TransposeBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1024
+    },
+    {
+      "name": "TransposeBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1024
+    },
+    {
+      "name": "autograd::engine::evaluate_function: ScaledDotProductEfficientAttentionBackward0",
+      "category": "Attention",
+      "cuda_time_us": 140115.61,
+      "calls": 256
+    },
+    {
+      "name": "ScaledDotProductEfficientAttentionBackward0",
+      "category": "Attention",
+      "cuda_time_us": 140115.61,
+      "calls": 256
+    },
+    {
+      "name": "aten::_scaled_dot_product_efficient_attention_backward",
+      "category": "Attention",
+      "cuda_time_us": 140115.61,
+      "calls": 256
+    },
+    {
+      "name": "aten::_efficient_attention_backward",
+      "category": "Attention",
+      "cuda_time_us": 140115.61,
+      "calls": 256
+    },
+    {
+      "name": "cudaFuncGetAttributes",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 256
+    },
+    {
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1536
+    },
+    {
+      "name": "CatBackward0",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1536
+    },
+    {
+      "name": "autograd::engine::evaluate_function: NegBackward0",
+      "category": "Other",
+      "cuda_time_us": 2737.01,
+      "calls": 512
+    },
+    {
+      "name": "NegBackward0",
+      "category": "Other",
+      "cuda_time_us": 2737.01,
+      "calls": 512
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<long>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<long>, at::detail::Array<char*, 1>)",
+      "category": "Other",
+      "cuda_time_us": 11.78,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::cunn_SoftMaxForward<4, float, float, float, at::native::(anonymous namespace)::LogSoftMaxForwardEpilogue>(float*, float const*, int)",
+      "category": "Attention",
+      "cuda_time_us": 10603.39,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::nll_loss_forward_reduce_cuda_kernel_2d<float, float, long>(float*, float*, float const*, long const*, float const*, bool, long, long, long, long)",
+      "category": "Other",
+      "cuda_time_us": 345.82,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<float>, at::detail::Array<char*, 1>)",
+      "category": "Other",
+      "cuda_time_us": 17854.79,
+      "calls": 2088
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::nll_loss_backward_reduce_cuda_kernel_2d<float, long>(float*, float const*, long const*, float const*, float const*, bool, int, int, long, long)",
+      "category": "Other",
+      "cuda_time_us": 202.72,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::cunn_SoftMaxBackward<4, float, float, float, at::native::(anonymous namespace)::LogSoftMaxBackwardEpilogue>(float*, float const*, float const*, long)",
+      "category": "Attention",
+      "cuda_time_us": 19267.49,
+      "calls": 8
+    },
+    {
+      "name": "ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_32x3_nn",
+      "category": "GEMM",
+      "cuda_time_us": 128167.72,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::layer_norm_grad_input_kernel_vectorized<float, float>(float const*, float const*, float const*, float const*, float const*, float*, int)",
+      "category": "Normalization",
+      "cuda_time_us": 11875.94,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::masked_scale_kernel<bool, float, float>(at::Tensor&, at::Tensor const&, at::Tensor const&, float)::{lambda(float, bool)#1}, at::detail::Array<char*, 3> >(int, at::native::(anonymous namespace)::masked_scale_kernel<bool, float, float>(at::Tensor&, at::Tensor const&, at::Tensor const&, float)::{lambda(float, bool)#1}, at::detail::Array<char*, 3>)",
+      "category": "Other",
+      "cuda_time_us": 95223.45,
+      "calls": 1504
+    },
+    {
+      "name": "ampere_bf16_s16816gemm_bf16_64x64_ldg8_f2f_stages_64x5_nt",
+      "category": "GEMM",
+      "cuda_time_us": 11853.11,
+      "calls": 1280
+    },
+    {
+      "name": "void splitKreduce_kernel<32, 16, int, __nv_bfloat16, __nv_bfloat16, float, __nv_bfloat16, true, false, false>(cublasSplitKParams<float>, __nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat16*, float const*, float const*, __nv_bfloat16 const*, __nv_bfloat16 const*, __nv_bfloat16*, void*, long, float*, int*)",
+      "category": "GEMM",
+      "cuda_time_us": 2566.44,
+      "calls": 1536
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_nn_align8>(cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_nn_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 29917.2,
+      "calls": 1536
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_nt_align8>(cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_nt_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 17861.52,
+      "calls": 256
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_nn_align8>(cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_nn_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 23482.95,
+      "calls": 1504
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_tensorop_bf16_s16816gemm_bf16_256x128_32x3_nn_align8>(cutlass_80_tensorop_bf16_s16816gemm_bf16_256x128_32x3_nn_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 105548.55,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::tanh_backward_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float, float)#1}, at::detail::Array<char*, 3> >(int, at::native::tanh_backward_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float, float)#1}, at::detail::Array<char*, 3>)",
+      "category": "Other",
+      "cuda_time_us": 98006.84,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+      "category": "Other",
+      "cuda_time_us": 65429.64,
+      "calls": 256
+    },
+    {
+      "name": "ampere_bf16_s16816gemm_bf16_64x128_ldg8_f2f_stages_64x3_nt",
+      "category": "GEMM",
+      "cuda_time_us": 6188.29,
+      "calls": 256
+    },
+    {
+      "name": "void cutlass::Kernel<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_nt_align8>(cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_nt_align8::Params)",
+      "category": "GEMM",
+      "cuda_time_us": 29851.6,
+      "calls": 1280
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::masked_scale_kernel<bool, c10::BFloat16, float>(at::Tensor&, at::Tensor const&, at::Tensor const&, float)::{lambda(c10::BFloat16, bool)#1}, at::detail::Array<char*, 3> >(int, at::native::(anonymous namespace)::masked_scale_kernel<bool, c10::BFloat16, float>(at::Tensor&, at::Tensor const&, at::Tensor const&, float)::{lambda(c10::BFloat16, bool)#1}, at::detail::Array<char*, 3>)",
+      "category": "Other",
+      "cuda_time_us": 11454.28,
+      "calls": 512
+    },
+    {
+      "name": "ampere_bf16_s1688gemm_bf16_128x128_ldg8_f2f_stages_32x1_nn",
+      "category": "GEMM",
+      "cuda_time_us": 132519.47,
+      "calls": 1000
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<unsigned char>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<unsigned char>, at::detail::Array<char*, 1>)",
+      "category": "Other",
+      "cuda_time_us": 9123.19,
+      "calls": 256
+    },
+    {
+      "name": "fmha_cutlassB_bf16_aligned_128x64_k96_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, cutlass::bfloat16_t, true, false, true, 128, 64, 96, false>::Params)",
+      "category": "Attention",
+      "cuda_time_us": 130992.41,
+      "calls": 256
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+      "category": "Other",
+      "cuda_time_us": 43350.86,
+      "calls": 2560
+    },
+    {
+      "name": "Optimizer.step#AdamW.step",
+      "category": "Optimizer",
+      "cuda_time_us": 21744.22,
+      "calls": 8
+    },
+    {
+      "name": "aten::_foreach_add_",
+      "category": "Optimizer",
+      "cuda_time_us": 1622.16,
+      "calls": 16
+    },
+    {
+      "name": "aten::_foreach_mul_",
+      "category": "Optimizer",
+      "cuda_time_us": 4388.36,
+      "calls": 16
+    },
+    {
+      "name": "aten::_foreach_lerp_",
+      "category": "Optimizer",
+      "cuda_time_us": 3406.08,
+      "calls": 8
+    },
+    {
+      "name": "aten::_foreach_addcmul_",
+      "category": "Optimizer",
+      "cuda_time_us": 3286.33,
+      "calls": 8
+    },
+    {
+      "name": "aten::_foreach_sqrt",
+      "category": "Optimizer",
+      "cuda_time_us": 2354.07,
+      "calls": 8
+    },
+    {
+      "name": "aten::_foreach_div_",
+      "category": "Optimizer",
+      "cuda_time_us": 2061.75,
+      "calls": 8
+    },
+    {
+      "name": "aten::_foreach_addcdiv_",
+      "category": "Optimizer",
+      "cuda_time_us": 4378.73,
+      "calls": 8
+    },
+    {
+      "name": "Optimizer.step#AdamW.step",
+      "category": "Optimizer",
+      "cuda_time_us": 21748.02,
+      "calls": 8
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<float, 1, 1, 0>, std::multiplies<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<float, 1, 1, 0>, std::multiplies<float>, float)",
+      "category": "Other",
+      "cuda_time_us": 4388.36,
+      "calls": 64
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::TernaryOpScalarFunctor<float, 2, 2, 0>, at::native::LerpFunctor<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::TernaryOpScalarFunctor<float, 2, 2, 0>, at::native::LerpFunctor<float>, float)",
+      "category": "Other",
+      "cuda_time_us": 3406.08,
+      "calls": 48
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<3>, at::native::(anonymous namespace)::PointwiseOpScalarFunctor<float, 3, 3, 0>, std::multiplies<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<3>, at::native::(anonymous namespace)::PointwiseOpScalarFunctor<float, 3, 3, 0>, std::multiplies<float>, float)",
+      "category": "Other",
+      "cuda_time_us": 3286.33,
+      "calls": 64
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<float, 2, 1, 1>, at::native::Sqrt<float> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<float, 2, 1, 1>, at::native::Sqrt<float>)",
+      "category": "Other",
+      "cuda_time_us": 2354.07,
+      "calls": 48
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 1>, at::native::(anonymous namespace)::BinaryOpScalarListFunctor<float, 1, 1, 0>, std::divides<float> >(at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 1>, at::native::(anonymous namespace)::BinaryOpScalarListFunctor<float, 1, 1, 0>, std::divides<float>)",
+      "category": "Other",
+      "cuda_time_us": 2061.75,
+      "calls": 32
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<float, 1, 1, 0>, std::plus<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<float, 1, 1, 0>, std::plus<float>, float)",
+      "category": "Other",
+      "cuda_time_us": 1622.16,
+      "calls": 32
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 3>, at::native::(anonymous namespace)::PointwiseOpScalarListFunctor<float, 3, 3, 0>, std::divides<float> >(at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 3>, at::native::(anonymous namespace)::PointwiseOpScalarListFunctor<float, 3, 3, 0>, std::divides<float>)",
+      "category": "Other",
+      "cuda_time_us": 4378.73,
+      "calls": 64
+    },
+    {
+      "name": "cudaDeviceSynchronize",
+      "category": "Other",
+      "cuda_time_us": 0,
+      "calls": 1
+    }
+  ]
+}

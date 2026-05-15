@@ -1,0 +1,20 @@
+{
+  "method": "lora",
+  "rank": 8,
+  "load_in_4bit": false,
+  "gradient_checkpointing": false,
+  "flash_attention": false,
+  "model": "microsoft/phi-2",
+  "peak_memory_gb": 23.383,
+  "peak_memory_reserved_gb": 23.692,
+  "total_wall_sec": 930.4,
+  "total_time_sec": 930.4,
+  "avg_step_time_ms": 1819.03,
+  "throughput_samples_per_sec": 8.8,
+  "final_loss": 0.16448529958724975,
+  "trainable_params": 11796480,
+  "total_params": 2791480320,
+  "trainable_pct": 0.4226,
+  "gpu_name": "NVIDIA L40S",
+  "gpu_memory_total_gb": 47.6
+}

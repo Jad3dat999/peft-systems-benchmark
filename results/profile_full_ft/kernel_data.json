@@ -1,0 +1,1746 @@
+[
+  {
+    "name": "ProfilerStep*",
+    "cuda_time_us": 2261176.19,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 2261176.19,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "ProfilerStep*",
+    "cuda_time_us": 1551320.55,
+    "cpu_time_us": 2284794.35,
+    "calls": 8,
+    "self_cuda_time_us": 1551320.55,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Optimizer.step#AdamW.step",
+    "cuda_time_us": 1352490.3,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 1352490.3,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Optimizer.step#AdamW.step",
+    "cuda_time_us": 1346425.9,
+    "cpu_time_us": 146542.74,
+    "calls": 8,
+    "self_cuda_time_us": 1346425.9,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_foreach_mul_",
+    "cuda_time_us": 278957.41,
+    "cpu_time_us": 13626.29,
+    "calls": 16,
+    "self_cuda_time_us": 278957.41,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<c10::BFloat16, 1, 1, 0>, std::multiplies<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<c10::BFloat16, 1, 1, 0>, std::multiplies<float>, float)",
+    "cuda_time_us": 278957.41,
+    "cpu_time_us": 0,
+    "calls": 2144,
+    "self_cuda_time_us": 278957.41,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: AddmmBackward0",
+    "cuda_time_us": 253527.22,
+    "cpu_time_us": 99505.51,
+    "calls": 1544,
+    "self_cuda_time_us": 253527.22,
+    "cuda_memory_usage": 36586946560
+  },
+  {
+    "name": "aten::_foreach_addcdiv_",
+    "cuda_time_us": 247142.64,
+    "cpu_time_us": 38713.12,
+    "calls": 8,
+    "self_cuda_time_us": 247142.64,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 3>, at::native::(anonymous namespace)::PointwiseOpScalarListFunctor<c10::BFloat16, 3, 3, 0>, std::divides<float> >(at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 3>, at::native::(anonymous namespace)::PointwiseOpScalarListFunctor<c10::BFloat16, 3, 3, 0>, std::divides<float>)",
+    "cuda_time_us": 247142.64,
+    "cpu_time_us": 0,
+    "calls": 1072,
+    "self_cuda_time_us": 247142.64,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::linear",
+    "cuda_time_us": 245102.62,
+    "cpu_time_us": 122466.53,
+    "calls": 2832,
+    "self_cuda_time_us": 245102.62,
+    "cuda_memory_usage": 17637048320
+  },
+  {
+    "name": "AddmmBackward0",
+    "cuda_time_us": 239794.64,
+    "cpu_time_us": 65185.92,
+    "calls": 1544,
+    "self_cuda_time_us": 239794.64,
+    "cuda_memory_usage": 48423239680
+  },
+  {
+    "name": "aten::mm",
+    "cuda_time_us": 239794.64,
+    "cpu_time_us": 40556.2,
+    "calls": 3088,
+    "self_cuda_time_us": 239794.64,
+    "cuda_memory_usage": 48423239680
+  },
+  {
+    "name": "aten::_foreach_lerp_",
+    "cuda_time_us": 201849.81,
+    "cpu_time_us": 6014.54,
+    "calls": 8,
+    "self_cuda_time_us": 201849.81,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::TernaryOpScalarFunctor<c10::BFloat16, 2, 2, 0>, at::native::LerpFunctor<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::TernaryOpScalarFunctor<c10::BFloat16, 2, 2, 0>, at::native::LerpFunctor<float>, float)",
+    "cuda_time_us": 201849.81,
+    "cpu_time_us": 0,
+    "calls": 1072,
+    "self_cuda_time_us": 201849.81,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_foreach_addcmul_",
+    "cuda_time_us": 200992.5,
+    "cpu_time_us": 7067.25,
+    "calls": 8,
+    "self_cuda_time_us": 200992.5,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<3>, at::native::(anonymous namespace)::PointwiseOpScalarFunctor<c10::BFloat16, 3, 3, 0>, std::multiplies<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<3>, at::native::(anonymous namespace)::PointwiseOpScalarFunctor<c10::BFloat16, 3, 3, 0>, std::multiplies<float>, float)",
+    "cuda_time_us": 200992.5,
+    "cpu_time_us": 0,
+    "calls": 1072,
+    "self_cuda_time_us": 200992.5,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_foreach_div_",
+    "cuda_time_us": 140393.71,
+    "cpu_time_us": 6402.8,
+    "calls": 8,
+    "self_cuda_time_us": 140393.71,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 1>, at::native::(anonymous namespace)::BinaryOpScalarListFunctor<c10::BFloat16, 1, 1, 0>, std::divides<float> >(at::native::(anonymous namespace)::TensorListScalarListMetadata<float, 1>, at::native::(anonymous namespace)::BinaryOpScalarListFunctor<c10::BFloat16, 1, 1, 0>, std::divides<float>)",
+    "cuda_time_us": 140393.71,
+    "cpu_time_us": 0,
+    "calls": 1072,
+    "self_cuda_time_us": 140393.71,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_foreach_add_",
+    "cuda_time_us": 139176.26,
+    "cpu_time_us": 11685.5,
+    "calls": 16,
+    "self_cuda_time_us": 139176.26,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<c10::BFloat16, 1, 1, 0>, std::plus<float>, float>(at::native::(anonymous namespace)::TensorListMetadata<1>, at::native::(anonymous namespace)::BinaryOpScalarFunctor<c10::BFloat16, 1, 1, 0>, std::plus<float>, float)",
+    "cuda_time_us": 139176.26,
+    "cpu_time_us": 0,
+    "calls": 1072,
+    "self_cuda_time_us": 139176.26,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_foreach_sqrt",
+    "cuda_time_us": 137913.56,
+    "cpu_time_us": 22742.91,
+    "calls": 8,
+    "self_cuda_time_us": 137913.56,
+    "cuda_memory_usage": 44474941440
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<c10::BFloat16, 2, 1, 1>, at::native::Sqrt<float> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<c10::BFloat16, 2, 1, 1>, at::native::Sqrt<float>)",
+    "cuda_time_us": 137913.56,
+    "cpu_time_us": 0,
+    "calls": 1072,
+    "self_cuda_time_us": 137913.56,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "ampere_bf16_s1688gemm_bf16_128x128_ldg8_f2f_stages_32x1_nn",
+    "cuda_time_us": 123931.78,
+    "cpu_time_us": 0,
+    "calls": 1536,
+    "self_cuda_time_us": 123931.78,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::addmm",
+    "cuda_time_us": 123900.97,
+    "cpu_time_us": 31642.9,
+    "calls": 1544,
+    "self_cuda_time_us": 123900.97,
+    "cuda_memory_usage": 6459228160
+  },
+  {
+    "name": "ampere_bf16_s1688gemm_bf16_128x128_ldg8_f2f_stages_32x1_nt",
+    "cuda_time_us": 104915.99,
+    "cpu_time_us": 0,
+    "calls": 1536,
+    "self_cuda_time_us": 104915.99,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void cutlass::Kernel<cutlass_80_tensorop_bf16_s16816gemm_bf16_128x128_32x4_tn_align8>(cutlass_80_tensorop_bf16_s16816gemm_bf16_128x128_32x4_tn_align8::Params)",
+    "cuda_time_us": 77116.71,
+    "cpu_time_us": 0,
+    "calls": 512,
+    "self_cuda_time_us": 77116.71,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::mul",
+    "cuda_time_us": 67517.8,
+    "cpu_time_us": 48115.06,
+    "calls": 4880,
+    "self_cuda_time_us": 67517.8,
+    "cuda_memory_usage": 55835623424
+  },
+  {
+    "name": "aten::copy_",
+    "cuda_time_us": 53517.79,
+    "cpu_time_us": 55608.42,
+    "calls": 8368,
+    "self_cuda_time_us": 53517.79,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: MulBackward0",
+    "cuda_time_us": 49839.7,
+    "cpu_time_us": 43429.84,
+    "calls": 2048,
+    "self_cuda_time_us": 49839.7,
+    "cuda_memory_usage": -7516717056
+  },
+  {
+    "name": "aten::to",
+    "cuda_time_us": 46343.05,
+    "cpu_time_us": 88089.23,
+    "calls": 6608,
+    "self_cuda_time_us": 46343.05,
+    "cuda_memory_usage": 32934039552
+  },
+  {
+    "name": "aten::_to_copy",
+    "cuda_time_us": 46343.05,
+    "cpu_time_us": 80038.06,
+    "calls": 5768,
+    "self_cuda_time_us": 46343.05,
+    "cuda_memory_usage": 32934039552
+  },
+  {
+    "name": "MulBackward0",
+    "cuda_time_us": 42328.72,
+    "cpu_time_us": 25309.96,
+    "calls": 2048,
+    "self_cuda_time_us": 42328.72,
+    "cuda_memory_usage": 25232932864
+  },
+  {
+    "name": "ampere_bf16_s16816gemm_bf16_128x128_ldg8_relu_f2f_stages_64x3_tn",
+    "cuda_time_us": 41760.99,
+    "cpu_time_us": 0,
+    "calls": 1024,
+    "self_cuda_time_us": 41760.99,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: ScaledDotProductEfficientAttentionBackward0",
+    "cuda_time_us": 36480.64,
+    "cpu_time_us": 22383.92,
+    "calls": 256,
+    "self_cuda_time_us": 36480.64,
+    "cuda_memory_usage": -150994944
+  },
+  {
+    "name": "ScaledDotProductEfficientAttentionBackward0",
+    "cuda_time_us": 36480.64,
+    "cpu_time_us": 19710.3,
+    "calls": 256,
+    "self_cuda_time_us": 36480.64,
+    "cuda_memory_usage": 2013265920
+  },
+  {
+    "name": "aten::_scaled_dot_product_efficient_attention_backward",
+    "cuda_time_us": 36480.64,
+    "cpu_time_us": 18124.27,
+    "calls": 256,
+    "self_cuda_time_us": 36480.64,
+    "cuda_memory_usage": 2013265920
+  },
+  {
+    "name": "aten::_efficient_attention_backward",
+    "cuda_time_us": 36480.64,
+    "cpu_time_us": 11971.79,
+    "calls": 256,
+    "self_cuda_time_us": 36480.64,
+    "cuda_memory_usage": 2013265920
+  },
+  {
+    "name": "fmha_cutlassB_bf16_aligned_128x64_k96_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, cutlass::bfloat16_t, true, false, true, 128, 64, 96, false>::Params)",
+    "cuda_time_us": 33956.59,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 33956.59,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: ToCopyBackward0",
+    "cuda_time_us": 33694.56,
+    "cpu_time_us": 56833.95,
+    "calls": 2344,
+    "self_cuda_time_us": 33694.56,
+    "cuda_memory_usage": -5790842880
+  },
+  {
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+    "cuda_time_us": 26025.14,
+    "cpu_time_us": 0,
+    "calls": 2872,
+    "self_cuda_time_us": 26025.14,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "ToCopyBackward0",
+    "cuda_time_us": 22075.58,
+    "cpu_time_us": 35782.49,
+    "calls": 2344,
+    "self_cuda_time_us": 22075.58,
+    "cuda_memory_usage": 14577909760
+  },
+  {
+    "name": "autograd::engine::evaluate_function: TanhBackward0",
+    "cuda_time_us": 21287.44,
+    "cpu_time_us": 4167.15,
+    "calls": 256,
+    "self_cuda_time_us": 21287.44,
+    "cuda_memory_usage": -5368709120
+  },
+  {
+    "name": "TanhBackward0",
+    "cuda_time_us": 21287.44,
+    "cpu_time_us": 3078.16,
+    "calls": 256,
+    "self_cuda_time_us": 21287.44,
+    "cuda_memory_usage": 5368709120
+  },
+  {
+    "name": "aten::tanh_backward",
+    "cuda_time_us": 21287.44,
+    "cpu_time_us": 2500.06,
+    "calls": 256,
+    "self_cuda_time_us": 21287.44,
+    "cuda_memory_usage": 5368709120
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::tanh_backward_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float, float)#1}, at::detail::Array<char*, 3> >(int, at::native::tanh_backward_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float, float)#1}, at::detail::Array<char*, 3>)",
+    "cuda_time_us": 21287.44,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 21287.44,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 3> >(int, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 3>)",
+    "cuda_time_us": 21143.37,
+    "cpu_time_us": 0,
+    "calls": 512,
+    "self_cuda_time_us": 21143.37,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::pow",
+    "cuda_time_us": 20325.03,
+    "cpu_time_us": 18937.27,
+    "calls": 768,
+    "self_cuda_time_us": 20325.03,
+    "cuda_memory_usage": 21474836480
+  },
+  {
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+    "cuda_time_us": 20286.59,
+    "cpu_time_us": 0,
+    "calls": 2352,
+    "self_cuda_time_us": 20286.59,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: PowBackward0",
+    "cuda_time_us": 18938.32,
+    "cpu_time_us": 10778.66,
+    "calls": 256,
+    "self_cuda_time_us": 18938.32,
+    "cuda_memory_usage": -5368709120
+  },
+  {
+    "name": "PowBackward0",
+    "cuda_time_us": 18938.32,
+    "cpu_time_us": 9740.77,
+    "calls": 256,
+    "self_cuda_time_us": 18938.32,
+    "cuda_memory_usage": 5515509760
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::AUnaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 17691.85,
+    "cpu_time_us": 0,
+    "calls": 1296,
+    "self_cuda_time_us": 17691.85,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::add_",
+    "cuda_time_us": 16914.05,
+    "cpu_time_us": 21790.6,
+    "calls": 6696,
+    "self_cuda_time_us": 16914.05,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<c10::BFloat16>, at::detail::Array<char*, 3> >(int, at::native::CUDAFunctor_add<c10::BFloat16>, at::detail::Array<char*, 3>)",
+    "cuda_time_us": 16018.37,
+    "cpu_time_us": 0,
+    "calls": 2304,
+    "self_cuda_time_us": 16018.37,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 3>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1> >(int, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 3>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1>)",
+    "cuda_time_us": 14589.01,
+    "cpu_time_us": 0,
+    "calls": 512,
+    "self_cuda_time_us": 14589.01,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::sum",
+    "cuda_time_us": 13732.59,
+    "cpu_time_us": 15877.93,
+    "calls": 1544,
+    "self_cuda_time_us": 13732.59,
+    "cuda_memory_usage": 12615680
+  },
+  {
+    "name": "void at::native::reduce_kernel<128, 4, at::native::ReduceOp<c10::BFloat16, at::native::func_wrapper_t<c10::BFloat16, at::native::sum_functor<c10::BFloat16, float, c10::BFloat16>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, c10::BFloat16, 4> >(at::native::ReduceOp<c10::BFloat16, at::native::func_wrapper_t<c10::BFloat16, at::native::sum_functor<c10::BFloat16, float, c10::BFloat16>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, c10::BFloat16, 4>)",
+    "cuda_time_us": 13732.59,
+    "cpu_time_us": 0,
+    "calls": 1544,
+    "self_cuda_time_us": 13732.59,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::scaled_dot_product_attention",
+    "cuda_time_us": 13330.5,
+    "cpu_time_us": 36769.76,
+    "calls": 256,
+    "self_cuda_time_us": 13330.5,
+    "cuda_memory_usage": 822083584
+  },
+  {
+    "name": "aten::add",
+    "cuda_time_us": 11873.67,
+    "cpu_time_us": 15900.55,
+    "calls": 1560,
+    "self_cuda_time_us": 11873.67,
+    "cuda_memory_usage": 12616564736
+  },
+  {
+    "name": "aten::_scaled_dot_product_efficient_attention",
+    "cuda_time_us": 11795.78,
+    "cpu_time_us": 11869.2,
+    "calls": 256,
+    "self_cuda_time_us": 11795.78,
+    "cuda_memory_usage": 687865856
+  },
+  {
+    "name": "aten::_efficient_attention_forward",
+    "cuda_time_us": 11795.78,
+    "cpu_time_us": 6833.02,
+    "calls": 256,
+    "self_cuda_time_us": 11795.78,
+    "cuda_memory_usage": 687865856
+  },
+  {
+    "name": "fmha_cutlassF_bf16_aligned_64x128_rf_sm80(PyTorchMemEffAttention::AttentionKernel<cutlass::bfloat16_t, cutlass::arch::Sm80, true, 64, 128, 128, true, true>::Params)",
+    "cuda_time_us": 11795.78,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 11795.78,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: SliceBackward0",
+    "cuda_time_us": 11135.86,
+    "cpu_time_us": 67241.97,
+    "calls": 2072,
+    "self_cuda_time_us": 11135.86,
+    "cuda_memory_usage": -805306368
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 10777.12,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 10777.12,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::cat",
+    "cuda_time_us": 10584.64,
+    "cpu_time_us": 18296.29,
+    "calls": 1544,
+    "self_cuda_time_us": 10584.64,
+    "cuda_memory_usage": 3221749760
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 4, 64, 64>(at::native::(anonymous namespace)::OpaqueType<2u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 64, 64>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+    "cuda_time_us": 10562.69,
+    "cpu_time_us": 0,
+    "calls": 1536,
+    "self_cuda_time_us": 10562.69,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::fill_",
+    "cuda_time_us": 10531.13,
+    "cpu_time_us": 19466.5,
+    "calls": 3392,
+    "self_cuda_time_us": 10531.13,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::zero_",
+    "cuda_time_us": 10026.15,
+    "cpu_time_us": 20828.67,
+    "calls": 2856,
+    "self_cuda_time_us": 10026.15,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "SliceBackward0",
+    "cuda_time_us": 8951.49,
+    "cpu_time_us": 52150.33,
+    "calls": 2072,
+    "self_cuda_time_us": 8951.49,
+    "cuda_memory_usage": 3883925504
+  },
+  {
+    "name": "aten::slice_backward",
+    "cuda_time_us": 8951.49,
+    "cpu_time_us": 49174.24,
+    "calls": 2072,
+    "self_cuda_time_us": 8951.49,
+    "cuda_memory_usage": 3883925504
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2> >(int, at::native::AUnaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> >, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 8234.64,
+    "cpu_time_us": 0,
+    "calls": 512,
+    "self_cuda_time_us": 8234.64,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1})",
+    "cuda_time_us": 7069.24,
+    "cpu_time_us": 0,
+    "calls": 2560,
+    "self_cuda_time_us": 7069.24,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<c10::BFloat16>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<c10::BFloat16>, at::detail::Array<char*, 1>)",
+    "cuda_time_us": 6901.34,
+    "cpu_time_us": 0,
+    "calls": 2568,
+    "self_cuda_time_us": 6901.34,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::zeros",
+    "cuda_time_us": 6492.43,
+    "cpu_time_us": 30043.73,
+    "calls": 2592,
+    "self_cuda_time_us": 6492.43,
+    "cuda_memory_usage": 5981077504
+  },
+  {
+    "name": "aten::layer_norm",
+    "cuda_time_us": 6027.03,
+    "cpu_time_us": 34199.42,
+    "calls": 528,
+    "self_cuda_time_us": 6027.03,
+    "cuda_memory_usage": 4159930368
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1})",
+    "cuda_time_us": 5858.93,
+    "cpu_time_us": 0,
+    "calls": 2048,
+    "self_cuda_time_us": 5858.93,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: AddBackward0",
+    "cuda_time_us": 5372.22,
+    "cpu_time_us": 9519.84,
+    "calls": 1536,
+    "self_cuda_time_us": 5372.22,
+    "cuda_memory_usage": 2684354560
+  },
+  {
+    "name": "ampere_bf16_s1688gemm_bf16_128x128_ldg8_f2f_nt",
+    "cuda_time_us": 5358.66,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 5358.66,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void cutlass::Kernel<cutlass_80_tensorop_bf16_s16816gemm_bf16_256x128_32x3_tn_align8>(cutlass_80_tensorop_bf16_s16816gemm_bf16_256x128_32x3_tn_align8::Params)",
+    "cuda_time_us": 4951.1,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 4951.1,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "ampere_bf16_s16816gemm_bf16_256x128_ldg8_f2f_stages_32x3_nn",
+    "cuda_time_us": 4589.09,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 4589.09,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: LogSoftmaxBackward0",
+    "cuda_time_us": 4446.3,
+    "cpu_time_us": 633.64,
+    "calls": 8,
+    "self_cuda_time_us": 4446.3,
+    "cuda_memory_usage": -838860800
+  },
+  {
+    "name": "LogSoftmaxBackward0",
+    "cuda_time_us": 4446.3,
+    "cpu_time_us": 584.75,
+    "calls": 8,
+    "self_cuda_time_us": 4446.3,
+    "cuda_memory_usage": 838860800
+  },
+  {
+    "name": "aten::_log_softmax_backward_data",
+    "cuda_time_us": 4446.3,
+    "cpu_time_us": 154.13,
+    "calls": 8,
+    "self_cuda_time_us": 4446.3,
+    "cuda_memory_usage": 838860800
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::cunn_SoftMaxBackward<4, float, float, float, at::native::(anonymous namespace)::LogSoftMaxBackwardEpilogue>(float*, float const*, float const*, long)",
+    "cuda_time_us": 4446.3,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 4446.3,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1> >(int, at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1>)",
+    "cuda_time_us": 4365.44,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 4365.44,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: NativeLayerNormBackward0",
+    "cuda_time_us": 4127.1,
+    "cpu_time_us": 10228.37,
+    "calls": 264,
+    "self_cuda_time_us": 4127.1,
+    "cuda_memory_usage": -1385201664
+  },
+  {
+    "name": "NativeLayerNormBackward0",
+    "cuda_time_us": 4127.1,
+    "cpu_time_us": 7793.88,
+    "calls": 264,
+    "self_cuda_time_us": 4127.1,
+    "cuda_memory_usage": 1389527040
+  },
+  {
+    "name": "aten::native_layer_norm_backward",
+    "cuda_time_us": 4127.1,
+    "cpu_time_us": 6655.49,
+    "calls": 264,
+    "self_cuda_time_us": 4127.1,
+    "cuda_memory_usage": 1389527040
+  },
+  {
+    "name": "autograd::engine::evaluate_function: NativeDropoutBackward0",
+    "cuda_time_us": 3835.17,
+    "cpu_time_us": 9189.15,
+    "calls": 512,
+    "self_cuda_time_us": 3835.17,
+    "cuda_memory_usage": 536870912
+  },
+  {
+    "name": "NativeDropoutBackward0",
+    "cuda_time_us": 3835.17,
+    "cpu_time_us": 7126.89,
+    "calls": 512,
+    "self_cuda_time_us": 3835.17,
+    "cuda_memory_usage": 1342177280
+  },
+  {
+    "name": "aten::native_dropout_backward",
+    "cuda_time_us": 3835.17,
+    "cpu_time_us": 6316.64,
+    "calls": 512,
+    "self_cuda_time_us": 3835.17,
+    "cuda_memory_usage": 1342177280
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::masked_scale_kernel<bool, c10::BFloat16, float>(at::Tensor&, at::Tensor const&, at::Tensor const&, float)::{lambda(c10::BFloat16, bool)#1}, at::detail::Array<char*, 3> >(int, at::native::(anonymous namespace)::masked_scale_kernel<bool, c10::BFloat16, float>(at::Tensor&, at::Tensor const&, at::Tensor const&, float)::{lambda(c10::BFloat16, bool)#1}, at::detail::Array<char*, 3>)",
+    "cuda_time_us": 3835.17,
+    "cpu_time_us": 0,
+    "calls": 512,
+    "self_cuda_time_us": 3835.17,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3> >(int, at::native::CUDAFunctor_add<float>, at::detail::Array<char*, 3>)",
+    "cuda_time_us": 3286.02,
+    "cpu_time_us": 0,
+    "calls": 768,
+    "self_cuda_time_us": 3286.02,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#2}, at::detail::Array<char*, 2> >(int, at::native::(anonymous namespace)::pow_tensor_scalar_kernel_impl<float, float>(at::TensorIteratorBase&, float)::{lambda(float)#2}, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 3219.77,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 3219.77,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::layer_norm_grad_input_kernel_vectorized<float, float>(float const*, float const*, float const*, float const*, float const*, float*, int)",
+    "cuda_time_us": 2959.79,
+    "cpu_time_us": 0,
+    "calls": 264,
+    "self_cuda_time_us": 2959.79,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: EmbeddingBackward0",
+    "cuda_time_us": 2911.44,
+    "cpu_time_us": 326.47,
+    "calls": 8,
+    "self_cuda_time_us": 2911.44,
+    "cuda_memory_usage": 2076180480
+  },
+  {
+    "name": "EmbeddingBackward0",
+    "cuda_time_us": 2911.44,
+    "cpu_time_us": 291.58,
+    "calls": 8,
+    "self_cuda_time_us": 2911.44,
+    "cuda_memory_usage": 2097152000
+  },
+  {
+    "name": "aten::embedding_backward",
+    "cuda_time_us": 2911.44,
+    "cpu_time_us": 261.92,
+    "calls": 8,
+    "self_cuda_time_us": 2911.44,
+    "cuda_memory_usage": 2097152000
+  },
+  {
+    "name": "aten::embedding_dense_backward",
+    "cuda_time_us": 2911.44,
+    "cpu_time_us": 236.77,
+    "calls": 8,
+    "self_cuda_time_us": 2911.44,
+    "cuda_memory_usage": 2097152000
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<c10::BFloat16> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<c10::BFloat16> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<c10::BFloat16> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<c10::BFloat16> const&)::{lambda(int)#1})",
+    "cuda_time_us": 2743.92,
+    "cpu_time_us": 0,
+    "calls": 1024,
+    "self_cuda_time_us": 2743.92,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::tanh",
+    "cuda_time_us": 2668.65,
+    "cpu_time_us": 3122.76,
+    "calls": 256,
+    "self_cuda_time_us": 2668.65,
+    "cuda_memory_usage": 5368709120
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::tanh_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::tanh_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 2668.65,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 2668.65,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::cross_entropy_loss",
+    "cuda_time_us": 2666.51,
+    "cpu_time_us": 633.35,
+    "calls": 8,
+    "self_cuda_time_us": 2666.51,
+    "cuda_memory_usage": 838868992
+  },
+  {
+    "name": "aten::log_softmax",
+    "cuda_time_us": 2575.6,
+    "cpu_time_us": 208.8,
+    "calls": 8,
+    "self_cuda_time_us": 2575.6,
+    "cuda_memory_usage": 838860800
+  },
+  {
+    "name": "aten::_log_softmax",
+    "cuda_time_us": 2575.6,
+    "cpu_time_us": 161.69,
+    "calls": 8,
+    "self_cuda_time_us": 2575.6,
+    "cuda_memory_usage": 838860800
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::cunn_SoftMaxForward<4, float, float, float, at::native::(anonymous namespace)::LogSoftMaxForwardEpilogue>(float*, float const*, int)",
+    "cuda_time_us": 2575.6,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 2575.6,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<unsigned char>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<unsigned char>, at::detail::Array<char*, 1>)",
+    "cuda_time_us": 2524.05,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 2524.05,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctorOnSelf_add<float>, at::detail::Array<char*, 2> >(int, at::native::CUDAFunctorOnSelf_add<float>, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 2347.28,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 2347.28,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::neg",
+    "cuda_time_us": 2221.94,
+    "cpu_time_us": 10554.17,
+    "calls": 1024,
+    "self_cuda_time_us": 2221.94,
+    "cuda_memory_usage": 536870912
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::neg_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#9}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1})",
+    "cuda_time_us": 2221.94,
+    "cpu_time_us": 0,
+    "calls": 1024,
+    "self_cuda_time_us": 2221.94,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::clone",
+    "cuda_time_us": 2084.15,
+    "cpu_time_us": 7075.53,
+    "calls": 520,
+    "self_cuda_time_us": 2084.15,
+    "cuda_memory_usage": 1342210048
+  },
+  {
+    "name": "aten::reshape",
+    "cuda_time_us": 2072.95,
+    "cpu_time_us": 21485.27,
+    "calls": 5960,
+    "self_cuda_time_us": 2072.95,
+    "cuda_memory_usage": 1342177280
+  },
+  {
+    "name": "autograd::engine::evaluate_function: ViewBackward0",
+    "cuda_time_us": 2072.95,
+    "cpu_time_us": 31290.69,
+    "calls": 4120,
+    "self_cuda_time_us": 2072.95,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "ViewBackward0",
+    "cuda_time_us": 2072.95,
+    "cpu_time_us": 18970.07,
+    "calls": 4120,
+    "self_cuda_time_us": 2072.95,
+    "cuda_memory_usage": 1342177280
+  },
+  {
+    "name": "aten::dropout",
+    "cuda_time_us": 2003.66,
+    "cpu_time_us": 15986.13,
+    "calls": 520,
+    "self_cuda_time_us": 2003.66,
+    "cuda_memory_usage": 2147483648
+  },
+  {
+    "name": "aten::native_dropout",
+    "cuda_time_us": 2003.66,
+    "cpu_time_us": 15162.9,
+    "calls": 512,
+    "self_cuda_time_us": 2003.66,
+    "cuda_memory_usage": 2147483648
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::fused_dropout_kernel_vec<c10::BFloat16, float, unsigned int, 1, 4, bool>(at::cuda::detail::TensorInfo<c10::BFloat16 const, unsigned int>, at::cuda::detail::TensorInfo<c10::BFloat16, unsigned int>, at::cuda::detail::TensorInfo<bool, unsigned int>, unsigned int, float, at::PhiloxCudaState)",
+    "cuda_time_us": 2003.66,
+    "cpu_time_us": 0,
+    "calls": 512,
+    "self_cuda_time_us": 2003.66,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::native_layer_norm",
+    "cuda_time_us": 1701.99,
+    "cpu_time_us": 8067.07,
+    "calls": 264,
+    "self_cuda_time_us": 1701.99,
+    "cuda_memory_usage": 1385201664
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::vectorized_layer_norm_kernel<float, float>(int, float, float const*, float const*, float const*, float*, float*, float*)",
+    "cuda_time_us": 1701.99,
+    "cpu_time_us": 0,
+    "calls": 264,
+    "self_cuda_time_us": 1701.99,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::where",
+    "cuda_time_us": 1537.03,
+    "cpu_time_us": 13184.65,
+    "calls": 512,
+    "self_cuda_time_us": 1537.03,
+    "cuda_memory_usage": 268457472
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::GammaBetaBackwardCUDAKernel_32x32<float, float>(long, long, float const*, float const*, float const*, float const*, float*, float*)",
+    "cuda_time_us": 1167.31,
+    "cpu_time_us": 0,
+    "calls": 264,
+    "self_cuda_time_us": 1167.31,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Memset (Device)",
+    "cuda_time_us": 1110.48,
+    "cpu_time_us": 0,
+    "calls": 1800,
+    "self_cuda_time_us": 1110.48,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: NegBackward0",
+    "cuda_time_us": 1109.25,
+    "cpu_time_us": 6912.76,
+    "calls": 512,
+    "self_cuda_time_us": 1109.25,
+    "cuda_memory_usage": 268435456
+  },
+  {
+    "name": "NegBackward0",
+    "cuda_time_us": 1109.25,
+    "cpu_time_us": 5289.91,
+    "calls": 512,
+    "self_cuda_time_us": 1109.25,
+    "cuda_memory_usage": 268435456
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<float>, at::detail::Array<char*, 1>)",
+    "cuda_time_us": 1086.73,
+    "cpu_time_us": 0,
+    "calls": 40,
+    "self_cuda_time_us": 1086.73,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: NllLossBackward0",
+    "cuda_time_us": 1066.28,
+    "cpu_time_us": 1380.68,
+    "calls": 8,
+    "self_cuda_time_us": 1066.28,
+    "cuda_memory_usage": 838819840
+  },
+  {
+    "name": "NllLossBackward0",
+    "cuda_time_us": 1066.28,
+    "cpu_time_us": 1030.37,
+    "calls": 8,
+    "self_cuda_time_us": 1066.28,
+    "cuda_memory_usage": 838860800
+  },
+  {
+    "name": "aten::nll_loss_backward",
+    "cuda_time_us": 1066.28,
+    "cpu_time_us": 913.49,
+    "calls": 8,
+    "self_cuda_time_us": 1066.28,
+    "cuda_memory_usage": 838860800
+  },
+  {
+    "name": "aten::logical_not",
+    "cuda_time_us": 813.73,
+    "cpu_time_us": 7831.89,
+    "calls": 512,
+    "self_cuda_time_us": 813.73,
+    "cuda_memory_usage": 134217728
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, c10::BFloat16, c10::BFloat16)#1} const&)::{lambda(int)#1})",
+    "cuda_time_us": 651.39,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 651.39,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::scalar_tensor",
+    "cuda_time_us": 476.46,
+    "cpu_time_us": 6796.0,
+    "calls": 512,
+    "self_cuda_time_us": 476.46,
+    "cuda_memory_usage": 262144
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::logical_not_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#10}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2> >(int, at::native::logical_not_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#10}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 406.86,
+    "cpu_time_us": 0,
+    "calls": 256,
+    "self_cuda_time_us": 406.86,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::embedding_backward_feature_kernel<c10::BFloat16, float, long>(long const*, c10::BFloat16 const*, c10::BFloat16*, int, long, int)",
+    "cuda_time_us": 292.39,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 292.39,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Memcpy DtoD (Device -> Device)",
+    "cuda_time_us": 94.3,
+    "cpu_time_us": 0,
+    "calls": 32,
+    "self_cuda_time_us": 94.3,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::nll_loss_nd",
+    "cuda_time_us": 90.91,
+    "cpu_time_us": 371.66,
+    "calls": 8,
+    "self_cuda_time_us": 90.91,
+    "cuda_memory_usage": 8192
+  },
+  {
+    "name": "aten::nll_loss",
+    "cuda_time_us": 90.91,
+    "cpu_time_us": 343.46,
+    "calls": 8,
+    "self_cuda_time_us": 90.91,
+    "cuda_memory_usage": 8192
+  },
+  {
+    "name": "aten::nll_loss_forward",
+    "cuda_time_us": 90.91,
+    "cpu_time_us": 180.26,
+    "calls": 8,
+    "self_cuda_time_us": 90.91,
+    "cuda_memory_usage": 8192
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::nll_loss_forward_reduce_cuda_kernel_2d<float, float, long>(float*, float*, float const*, long const*, float const*, bool, long, long, long, long)",
+    "cuda_time_us": 90.91,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 90.91,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::arange",
+    "cuda_time_us": 74.24,
+    "cpu_time_us": 1390.19,
+    "calls": 80,
+    "self_cuda_time_us": 74.24,
+    "cuda_memory_usage": 212992
+  },
+  {
+    "name": "aten::embedding",
+    "cuda_time_us": 63.68,
+    "cpu_time_us": 1032.99,
+    "calls": 8,
+    "self_cuda_time_us": 63.68,
+    "cuda_memory_usage": 20971520
+  },
+  {
+    "name": "aten::index_select",
+    "cuda_time_us": 63.68,
+    "cpu_time_us": 661.37,
+    "calls": 8,
+    "self_cuda_time_us": 63.68,
+    "cuda_memory_usage": 20971520
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::indexSelectLargeIndex<c10::BFloat16, long, unsigned int, 2, 2, -2, true>(at::cuda::detail::TensorInfo<c10::BFloat16, unsigned int>, at::cuda::detail::TensorInfo<c10::BFloat16 const, unsigned int>, at::cuda::detail::TensorInfo<long const, unsigned int>, int, int, unsigned int, unsigned int, long)",
+    "cuda_time_us": 63.68,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 63.68,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::nll_loss_backward_reduce_cuda_kernel_2d<float, long>(float*, float const*, long const*, float const*, float const*, bool, int, int, long, long)",
+    "cuda_time_us": 56.61,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 56.61,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::index",
+    "cuda_time_us": 45.79,
+    "cpu_time_us": 4745.76,
+    "calls": 8,
+    "self_cuda_time_us": 45.79,
+    "cuda_memory_usage": 4096
+  },
+  {
+    "name": "aten::__and__",
+    "cuda_time_us": 38.24,
+    "cpu_time_us": 326.0,
+    "calls": 16,
+    "self_cuda_time_us": 38.24,
+    "cuda_memory_usage": 4194304
+  },
+  {
+    "name": "aten::bitwise_and",
+    "cuda_time_us": 38.24,
+    "cpu_time_us": 294.62,
+    "calls": 16,
+    "self_cuda_time_us": 38.24,
+    "cuda_memory_usage": 4194304
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool> > const&)::{lambda(int)#1})",
+    "cuda_time_us": 38.24,
+    "cpu_time_us": 0,
+    "calls": 16,
+    "self_cuda_time_us": 38.24,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, function_traits<at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>::result_type*)",
+    "cuda_time_us": 37.12,
+    "cpu_time_us": 0,
+    "calls": 40,
+    "self_cuda_time_us": 37.12,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<1> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&)::{lambda(int)#1})",
+    "cuda_time_us": 34.59,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 34.59,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char*, 2> >(int, at::native::CUDAFunctorOnSelf_add<long>, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 26.69,
+    "cpu_time_us": 0,
+    "calls": 24,
+    "self_cuda_time_us": 26.69,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::pad",
+    "cuda_time_us": 24.16,
+    "cpu_time_us": 575.68,
+    "calls": 8,
+    "self_cuda_time_us": 24.16,
+    "cuda_memory_usage": 36864
+  },
+  {
+    "name": "aten::constant_pad_nd",
+    "cuda_time_us": 24.16,
+    "cpu_time_us": 539.96,
+    "calls": 8,
+    "self_cuda_time_us": 24.16,
+    "cuda_memory_usage": 36864
+  },
+  {
+    "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 3, 64, 64>(at::native::(anonymous namespace)::OpaqueType<4u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<4u>, unsigned int, 64, 64>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+    "cuda_time_us": 21.95,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 21.95,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::le",
+    "cuda_time_us": 21.89,
+    "cpu_time_us": 195.95,
+    "calls": 8,
+    "self_cuda_time_us": 21.89,
+    "cuda_memory_usage": 2097152
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::CompareFunctor<long> >(at::TensorIteratorBase&, at::native::(anonymous namespace)::CompareFunctor<long> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::(anonymous namespace)::CompareFunctor<long> >(at::TensorIteratorBase&, at::native::(anonymous namespace)::CompareFunctor<long> const&)::{lambda(int)#1})",
+    "cuda_time_us": 21.89,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 21.89,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::item",
+    "cuda_time_us": 20.86,
+    "cpu_time_us": 1233223.27,
+    "calls": 7264,
+    "self_cuda_time_us": 20.86,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_local_scalar_dense",
+    "cuda_time_us": 20.86,
+    "cpu_time_us": 1229075.16,
+    "calls": 7264,
+    "self_cuda_time_us": 20.86,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Memcpy DtoH (Device -> Pinned)",
+    "cuda_time_us": 20.86,
+    "cpu_time_us": 0,
+    "calls": 16,
+    "self_cuda_time_us": 20.86,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::all",
+    "cuda_time_us": 18.95,
+    "cpu_time_us": 316.48,
+    "calls": 8,
+    "self_cuda_time_us": 18.95,
+    "cuda_memory_usage": 4096
+  },
+  {
+    "name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::and_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4> >(at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::and_kernel_cuda(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#12}::operator()() const::{lambda(bool, bool)#1}>, unsigned int, bool, 4>)",
+    "cuda_time_us": 18.95,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 18.95,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#11}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#11}::operator()() const::{lambda(bool)#1}, at::detail::Array<char*, 2>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+    "cuda_time_us": 18.34,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 18.34,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Memcpy HtoD (Pinned -> Device)",
+    "cuda_time_us": 12.99,
+    "cpu_time_us": 0,
+    "calls": 24,
+    "self_cuda_time_us": 12.99,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<long>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<long>, at::detail::Array<char*, 1>)",
+    "cuda_time_us": 11.68,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 11.68,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::contiguous",
+    "cuda_time_us": 11.2,
+    "cpu_time_us": 373.2,
+    "calls": 8,
+    "self_cuda_time_us": 11.2,
+    "cuda_memory_usage": 32768
+  },
+  {
+    "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1})",
+    "cuda_time_us": 11.2,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 11.2,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::sin",
+    "cuda_time_us": 11.17,
+    "cpu_time_us": 146.61,
+    "calls": 8,
+    "self_cuda_time_us": 11.17,
+    "cuda_memory_usage": 524288
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::sin_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::sin_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 11.17,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 11.17,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::cos",
+    "cuda_time_us": 11.11,
+    "cpu_time_us": 166.17,
+    "calls": 8,
+    "self_cuda_time_us": 11.11,
+    "cuda_memory_usage": 524288
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::cos_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2> >(int, at::native::cos_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, at::detail::Array<char*, 2>)",
+    "cuda_time_us": 11.11,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 11.11,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::matmul",
+    "cuda_time_us": 10.88,
+    "cpu_time_us": 793.61,
+    "calls": 8,
+    "self_cuda_time_us": 10.88,
+    "cuda_memory_usage": 262144
+  },
+  {
+    "name": "aten::bmm",
+    "cuda_time_us": 10.88,
+    "cpu_time_us": 526.01,
+    "calls": 8,
+    "self_cuda_time_us": 10.88,
+    "cuda_memory_usage": 262144
+  },
+  {
+    "name": "void gemmk1_kernel<int, float, 256, 5, false, false, false, false, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float>, float, 0>(cublasGemmk1Params<float, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float const>, cublasGemvTensorStridedBatched<float>, float, biasType<cublasGemvTensorStridedBatched<float>::value_type, float>::type>)",
+    "cuda_time_us": 10.88,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 10.88,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::is_nonzero",
+    "cuda_time_us": 10.46,
+    "cpu_time_us": 293.61,
+    "calls": 8,
+    "self_cuda_time_us": 10.46,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::ones_like",
+    "cuda_time_us": 9.51,
+    "cpu_time_us": 161.08,
+    "calls": 8,
+    "self_cuda_time_us": 9.51,
+    "cuda_memory_usage": 4096
+  },
+  {
+    "name": "aten::new_ones",
+    "cuda_time_us": 7.33,
+    "cpu_time_us": 256.99,
+    "calls": 8,
+    "self_cuda_time_us": 7.33,
+    "cuda_memory_usage": 4096
+  },
+  {
+    "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<bool>, at::detail::Array<char*, 1> >(int, at::native::FillFunctor<bool>, at::detail::Array<char*, 1>)",
+    "cuda_time_us": 7.33,
+    "cpu_time_us": 0,
+    "calls": 8,
+    "self_cuda_time_us": 7.33,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "enumerate(DataLoader)#_MultiProcessingDataLoaderIter.__next__",
+    "cuda_time_us": 0,
+    "cpu_time_us": 619.91,
+    "calls": 8,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaPointerGetAttributes",
+    "cuda_time_us": 0,
+    "cpu_time_us": 100.11,
+    "calls": 24,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 3476992
+  },
+  {
+    "name": "aten::empty_strided",
+    "cuda_time_us": 0,
+    "cpu_time_us": 37896.99,
+    "calls": 10424,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 79556468736
+  },
+  {
+    "name": "cudaMemcpyAsync",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1026.42,
+    "calls": 72,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaStreamSynchronize",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1228175.47,
+    "calls": 40,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "Optimizer.zero_grad#AdamW.zero_grad",
+    "cuda_time_us": 0,
+    "cpu_time_us": 6601.58,
+    "calls": 8,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": -44474941440
+  },
+  {
+    "name": "aten::view",
+    "cuda_time_us": 0,
+    "cpu_time_us": 10409.47,
+    "calls": 9856,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::empty",
+    "cuda_time_us": 0,
+    "cpu_time_us": 26563.19,
+    "calls": 9120,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 16565968896
+  },
+  {
+    "name": "aten::resize_",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1523.33,
+    "calls": 568,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 222404608
+  },
+  {
+    "name": "cudaLaunchKernel",
+    "cuda_time_us": 0,
+    "cpu_time_us": 170809.39,
+    "calls": 41528,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::unsqueeze",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1797.7,
+    "calls": 640,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::as_strided",
+    "cuda_time_us": 0,
+    "cpu_time_us": 8754.39,
+    "calls": 20576,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaStreamIsCapturing",
+    "cuda_time_us": 0,
+    "cpu_time_us": 624.79,
+    "calls": 1296,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::slice",
+    "cuda_time_us": 0,
+    "cpu_time_us": 17698.12,
+    "calls": 6776,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::new_empty",
+    "cuda_time_us": 0,
+    "cpu_time_us": 65.67,
+    "calls": 8,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 4096
+  },
+  {
+    "name": "aten::expand",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1293.97,
+    "calls": 296,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::_reshape_alias",
+    "cuda_time_us": 0,
+    "cpu_time_us": 15.24,
+    "calls": 8,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::empty_like",
+    "cuda_time_us": 0,
+    "cpu_time_us": 10219.88,
+    "calls": 2064,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 4831875072
+  },
+  {
+    "name": "aten::_unsafe_view",
+    "cuda_time_us": 0,
+    "cpu_time_us": 423.92,
+    "calls": 520,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::transpose",
+    "cuda_time_us": 0,
+    "cpu_time_us": 23483.83,
+    "calls": 12848,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::t",
+    "cuda_time_us": 0,
+    "cpu_time_us": 24470.55,
+    "calls": 7720,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaOccupancyMaxActiveBlocksPerMultiprocessor",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1267.25,
+    "calls": 2056,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::lift_fresh",
+    "cuda_time_us": 0,
+    "cpu_time_us": 76.59,
+    "calls": 520,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::detach_",
+    "cuda_time_us": 0,
+    "cpu_time_us": 803.16,
+    "calls": 520,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "detach_",
+    "cuda_time_us": 0,
+    "cpu_time_us": 145.7,
+    "calls": 520,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaFuncSetAttribute",
+    "cuda_time_us": 0,
+    "cpu_time_us": 860.47,
+    "calls": 1032,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags",
+    "cuda_time_us": 0,
+    "cpu_time_us": 346.51,
+    "calls": 520,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::result_type",
+    "cuda_time_us": 0,
+    "cpu_time_us": 1059.29,
+    "calls": 22256,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaMemsetAsync",
+    "cuda_time_us": 0,
+    "cpu_time_us": 6037.22,
+    "calls": 1800,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::narrow",
+    "cuda_time_us": 0,
+    "cpu_time_us": 8639.57,
+    "calls": 2568,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: torch::autograd::AccumulateGrad",
+    "cuda_time_us": 0,
+    "cpu_time_us": 18835.88,
+    "calls": 3624,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "torch::autograd::AccumulateGrad",
+    "cuda_time_us": 0,
+    "cpu_time_us": 9784.46,
+    "calls": 3624,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "aten::detach",
+    "cuda_time_us": 0,
+    "cpu_time_us": 5606.03,
+    "calls": 3624,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "detach",
+    "cuda_time_us": 0,
+    "cpu_time_us": 2696.73,
+    "calls": 3624,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: TBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 10442.16,
+    "calls": 1544,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "TBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 6079.44,
+    "calls": 1544,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "AddBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 479.22,
+    "calls": 1536,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: TransposeBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 6564.76,
+    "calls": 1024,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "TransposeBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 3150.08,
+    "calls": 1024,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaFuncGetAttributes",
+    "cuda_time_us": 0,
+    "cpu_time_us": 761.06,
+    "calls": 256,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "autograd::engine::evaluate_function: CatBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 21391.43,
+    "calls": 1536,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "CatBackward0",
+    "cuda_time_us": 0,
+    "cpu_time_us": 15834.0,
+    "calls": 1536,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  },
+  {
+    "name": "cudaDeviceSynchronize",
+    "cuda_time_us": 0,
+    "cpu_time_us": 13.5,
+    "calls": 1,
+    "self_cuda_time_us": 0,
+    "cuda_memory_usage": 0
+  }
+]

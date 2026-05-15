@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Local model / data caches (don't commit big files)
+*.bin
+*.safetensors
+*.pt
+*.pth
+data/raw/
+
+# Logs and SLURM outputs
+logs/
+slurm-*.out
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local figure outputs (regenerable)
+figures/*.png
+figures/*.pdf
+!figures/.gitkeep
