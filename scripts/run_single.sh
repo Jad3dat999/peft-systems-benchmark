@@ -9,16 +9,16 @@
 #SBATCH --gres=gpu:lovelace:1
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
-#SBATCH --mail-user=ky65@rice.edu
+#SBATCH --mail-user=YOUR_EMAIL
 #SBATCH --mail-type=END,FAIL
 
 set -euo pipefail
 
 # Environment
 module load CUDA/12.1.1
-export PATH="/scratch/ky65/conda/envs/peft/bin:$PATH"
-export HF_HOME="/scratch/ky65/huggingface_cache"
-export PIP_CACHE_DIR="/scratch/ky65/pip_cache"
+export PATH="/scratch/$USER/conda/envs/peft/bin:$PATH"
+export HF_HOME="/scratch/$USER/huggingface_cache"
+export PIP_CACHE_DIR="/scratch/$USER/pip_cache"
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 EXPERIMENT="${1:?Usage: sbatch run_single.sh <experiment_name>}"

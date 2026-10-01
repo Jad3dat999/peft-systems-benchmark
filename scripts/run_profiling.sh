@@ -8,15 +8,15 @@
 #SBATCH --gres=gpu:lovelace:1
 #SBATCH --output=logs/profile_%j.out
 #SBATCH --error=logs/profile_%j.err
-#SBATCH --mail-user=ky65@rice.edu
+#SBATCH --mail-user=YOUR_EMAIL
 #SBATCH --mail-type=END,FAIL
 
 set -euo pipefail
 
 module load CUDA/12.1.1
-export PATH="/scratch/ky65/conda/envs/peft/bin:$PATH"
-export HF_HOME="/scratch/ky65/huggingface_cache"
-export PIP_CACHE_DIR="/scratch/ky65/pip_cache"
+export PATH="/scratch/$USER/conda/envs/peft/bin:$PATH"
+export HF_HOME="/scratch/$USER/huggingface_cache"
+export PIP_CACHE_DIR="/scratch/$USER/pip_cache"
 
 cd "$SHARED_SCRATCH/$USER/peft-systems-analysis"
 
